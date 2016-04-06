@@ -13,7 +13,7 @@
 
 	var priorityScale = d3.scale.linear()
 		// .domain([-1, 0, 1])
-		.range(['#ffffb2', '#fed976', '#feb24c', '#fd8d3c', '#f03b20', '#bd0026']);
+		.range(['#edf8fb', '#bfd3e6','#9ebcda','#8c96c6','#8856a7','#810f7c']);
 
 	var xScale = d3.time.scale()
 		.rangeRound([125, canvas_width]);
@@ -139,7 +139,7 @@
 			 	.data([milestone])
 				.attr('x1', xScale(milestone.start_date) + 1)
 				.attr('x2', xScale(milestone.start_date) + 1)
-				.attr('y1', -20)
+				.attr('y1', - 20)
 				.attr('y2', canvas_height - 25)
 				.style('stroke', '#666');
 			});
