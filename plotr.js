@@ -13,7 +13,7 @@
 
 	var priorityScale = d3.scale.linear()
 		// .domain([-1, 0, 1])
-		.range(['#edf8fb', '#bfd3e6','#9ebcda','#8c96c6','#8856a7','#810f7c']);
+		.range(['#bfd3e6', '#9ebcda','#8c96c6','#8c96c6','#8856a7','#810f7c']);
 
 	var xScale = d3.time.scale()
 		.rangeRound([125, canvas_width]);
