@@ -8,12 +8,13 @@
 
 	var teamColorScale = d3.scale.ordinal()
 		.domain(['Abby', 'Arliss', 'Aurelia', 'Zannah', 'Steph', 'Kaitlin', 'Team', 'Org'])
-		.range(['#e45f56',' #d75c37','#fff568','#a3d39c','#4aaaa5','#5694e4','#260126', '#5694e4'])
-		// .range(['#d53e4f', '#f46d43', '#fdae61', '#fee08b', '#ffffbf', '#abdda4', '#66c2a5', '#3288bd']);
+		// .range(['#e45f56',' #d75c37','#fff568','#a3d39c','#4aaaa5','#5694e4','#260126', '#5694e4'])
+		.range(['#d53e4f', '#f46d43', '#fdae61', '#fee08b', '#ffffbf', '#abdda4', '#66c2a5', '#3288bd']);
 
 	var priorityScale = d3.scale.linear()
 		// .domain([-1, 0, 1])
-		.range(['#bfd3e6', '#9ebcda','#8c96c6','#8c96c6','#8856a7','#810f7c']);
+		.range(['#bfd3e6', '#9ebcda','#8c96c6','#6baed6','#3182bd','#08519c']);
+
 
 	var xScale = d3.time.scale()
 		.rangeRound([125, canvas_width]);
