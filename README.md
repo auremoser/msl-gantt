@@ -4,7 +4,7 @@
 This is a simple sortable chart for viewing projects and tracking them on a timeline.
 
 ### data
-Data csv looks like this:
+Data CSV is stored in [Google Drive](https://docs.google.com/a/mozilla.com/spreadsheets/d/1IHocOhSxwA9XkO6rznmetSz_ATBIAPHgms4htOEd-tk/edit?usp=sharing) and looks like this:
 
 ![data.csv](https://raw.githubusercontent.com/auremoser/images/master/plotr-sheet.png)
 
@@ -17,7 +17,7 @@ project2 | value2 	| date1 		| date2 	| [V3/CrisisNet/...] | logistics
 
 #### key
 * **deliverable** is project name
-* **priority** is an arbitrary weight (maybe priority of a project, maybe hours of investment, maybe resources used)[1]
+* **priority** is an arbitrary weight (maybe priority of a project, maybe hours of investment, maybe resources used), in this case, it's roughly the number of hours a project will take [1]
 * **dates** are the start and end date of a project
 * **team** is the name of the team responsible for the deliverable
 * **type** is one of several categories for filtering purposes (community, logistics, assessment, convenings, trainings...)[2]
