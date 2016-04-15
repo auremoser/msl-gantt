@@ -288,12 +288,9 @@
 
 	/*
 	 * CALL THE THINGS
-	 * 'data/sample_data.csv'
-	 * var proxy = 'http://www.enjoy-mondays.com/assets/services/proxy.php?url=';
+	 * should be the same-ish as export in 'data/data.csv'
+	 * propending the url here with a heroku proxy to pull data from google sheets
 	 */
-
-	// WHERE WE PULL THE DATA
-	//var csvURL = 'http://guarded-ocean-2049.herokuapp.com/https://docs.google.com/spreadsheets/d/1kx3Kv56gKo_XRhIXfmEN1su-Kjp5x6ieXHv9e8Sp67s/pub?gid=1081344356&single=true&output=csv';
 	var csvURL = 'http://guarded-ocean-2049.herokuapp.com/https://docs.google.com/spreadsheet/pub?key=1IHocOhSxwA9XkO6rznmetSz_ATBIAPHgms4htOEd-tk&single=true&gid=0&output=csv';
 	
 
