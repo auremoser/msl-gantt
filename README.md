@@ -3,10 +3,12 @@
 ### about
 This is a simple sortable chart for viewing projects and tracking them on a timeline.
 
+![gantt](https://raw.githubusercontent.com/auremoser/msl-gantt/gh-pages/assets/sheet.png)
+
 ### data
 Data CSV is stored in [Google Drive](https://docs.google.com/a/mozilla.com/spreadsheets/d/1IHocOhSxwA9XkO6rznmetSz_ATBIAPHgms4htOEd-tk/edit?usp=sharing) and looks like this:
 
-![data.csv](https://raw.githubusercontent.com/auremoser/images/master/plotr-sheet.png)
+![data.csv](https://raw.githubusercontent.com/auremoser/msl-gantt/gh-pages/assets/gantt.png)
 
 Headers are static, but all values are editable in the data.csv file.
 
