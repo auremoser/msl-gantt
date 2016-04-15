@@ -8,7 +8,6 @@
 
 	var teamColorScale = d3.scale.ordinal()
 		.domain(['Abby', 'Arliss', 'Aurelia', 'Zannah', 'Steph', 'Kaitlin', 'Team', 'Org'])
-		// .range(['#e45f56',' #d75c37','#fff568','#a3d39c','#4aaaa5','#5694e4','#260126', '#5694e4'])
 		.range(['#d53e4f', '#f46d43', '#fdae61', '#fee08b', '#ffffbf', '#abdda4', '#66c2a5', '#3288bd']);
 
 	var priorityScale = d3.scale.linear()
@@ -29,13 +28,13 @@
 	var bar_margin_bottom = 10;
 	var container_top_padding = 30;
 	var container_bottom_padding = 40;
+
 	// Declare color/filter vars
 	var color_selector, filter_selector;
 
 	var today = new Date();
 
 	var ganttBarContainer;
-
 
 	/*
 	 * LOAD AND TIDY DATA
