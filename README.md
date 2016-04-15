@@ -14,8 +14,8 @@ Headers are static, but all values are editable in the data.csv file.
 
 deliverable	| priority	| start_date	| end_date 	| team | type
 :---:	| :----: 	| :--------: 	| :------: 	| :----: | :----:
-project1 | value1 	| date1 		| date2 	| [V3/CrisisNet/...] | community
-project2 | value2 	| date1 		| date2 	| [V3/CrisisNet/...] | logistics
+project1 | value1 	| date1 		| date2 	| [Abby/Aurelia/...] | community
+project2 | value2 	| date1 		| date2 	| [Abby/Aurelia/...] | logistics
 
 #### key
 * **deliverable** is project name
