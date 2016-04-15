@@ -162,7 +162,8 @@
 			.text('Today')
 			.attr('class', 'todaymarker')
 			.style('position', 'absolute')
-			.style('top', '-45px')
+			// height of "today" slightly higher so as not to interfere with milestones
+			.style('top', '-68px')
 			.style('left', function(d) { return (xScale(d) -1) + 'px' });
 
 		milestones.forEach(function(milestone){
@@ -198,6 +199,7 @@
 				var tt = '';
 				tt += '<p class="heading"><span id="keyword">' + d.team + '</span></p>';
 				tt += '<p class="indent"><span id="bar-data">' + d.deliverable + '</span></p>';
+				tt += '<p class="indent"><span id="bar-data">' + d.priority + " hours" + '</span></p>';
 				tt += '<p class="indent"><span id="cpcVal">' + dateFormat(d.start_date) + ' - ' + dateFormat(d.end_date) + '</span></p>';
 
 				tooltip
@@ -248,8 +250,6 @@
 			.style('opacity', 1e-6)
 			.transition()
 			.style('display', 'none');
-
-
 	}
 
 	// SORTING BUTTONS
@@ -287,7 +287,7 @@
 	});
 
 	/*
-	 * CALL THE THINGS
+	 * cALL THE THINGS
 	 * should be the same-ish as export in 'data/data.csv'
 	 * propending the url here with a heroku proxy to pull data from google sheets
 	 */
